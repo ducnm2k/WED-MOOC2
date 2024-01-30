@@ -1,0 +1,188 @@
+:root {
+    --primary-color: #F0B52D;
+    --secondary-color: #D4D4D4;
+    --dark-color: #000000;
+    --light-color: #ffffff;
+
+    --title-font-size: 60px;
+    --title-font-weight: bold;
+
+    --heading-1-font-size: 32px;
+    --heading-1-font-weight: bold;
+
+    --heading-2-font-size: 24px;
+    --heading-2-font-weight: bold;
+
+    --sub-title-font-size: 16px;
+    --sub-title-font-weight: normal;
+
+    --normal-font-size: 12px;
+    --normal-font-weight: normal;
+}
+
+#landing {
+    display: flex;
+    width: 100%;
+    min-height: 760px;
+    height: 100%;
+    box-shadow: 0px 20px 50px #6f6f6f;
+}
+
+#landing #landing_left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing #landing_left div {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#landing #landing_left div h2 {}
+
+
+#landing #landing_left div h1 {
+    width: fit-content;
+    float: left;
+    padding-right: 0.5rem;
+}
+
+#landing_name {
+    color: var(--primary-color);
+    margin-right: 50%;
+}
+
+#landing #landing_left div h3 {
+    float: left;
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+#landing #landing_left div h4 {
+    width: 100%;
+    float: left;
+    color: gray;
+}
+
+#landing #landing_left div a {
+    float: left;
+    text-decoration: none;
+    color: var(--light-color);
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+}
+
+#landing #landing_right {
+    width: 50%;
+    background-image: url(../assets/186536032_235317855025173_8041973802807288901_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#about_me {
+    margin-top: 50px;
+}
+
+#about_me #title {
+    padding: 10px 32px;
+}
+
+#about_me #title h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#about_me #main_content {
+    padding: 0px 32px;
+}
+
+#about_me #main_content div {
+    display: flex;
+    align-items: baseline;
+}
+
+#about_me #main_content div h2 {
+    font-weight: normal;
+    padding-right: 10px;
+    height: max-content;
+}
+
+#about_me #main_content div #name {
+    font-weight: bolder;
+    padding-right: 10px;
+    font-size: 28px;
+}
+
+#about_me #main_content h4 {
+    font-weight: lighter;
+}
+
+
+
+#about_me #statistic {
+    display: flex;
+}
+
+#about_me #statistic #statistic_left {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--dark-color);
+}
+
+#about_me #statistic #statistic_left div {
+    height: max-content;
+    text-align: center;
+    margin: auto;
+}
+
+#about_me #statistic #statistic_left div h2 {
+    color: var(--primary-color);
+}
+
+#about_me #statistic #statistic_left div h4 {
+    color: var(--light-color);
+    font-weight: normal;
+}
+
+
+#about_me #statistic #statistic_right {
+    width: 50%;
+    padding: 0 32px;
+}
+
+#about_me #statistic #statistic_right h2 {}
+
+#about_me #statistic #statistic_right div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+#about_me #statistic #statistic_right div img {
+    width: 5rem;
+    grid-column: 1/1;
+}
+
+#about_me #statistic #statistic_right div div {
+    grid-column: 2/4;
+    padding-left: 32px;
+}
+
+#about_me #statistic #statistic_right div div h3 {
+    grid-row: 1/1;
+}
+
+#about_me #statistic #statistic_right div div h4 {
+    grid-row: 2/2;
+    font-weight: lighter;
+}

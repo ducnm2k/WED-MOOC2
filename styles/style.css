@@ -1,0 +1,32 @@
+:root{
+    --primary-color: #F0B52D;
+    --secondary-color: #D4D4D4;
+    --dark-color: #000000;
+    --light-color: #fff;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--secondary-color);
+}
+
+#nav_bar {
+    position: fixed;
+    right: 30px;
+    top: 45%;
+    border-radius: 100px;
+    background: var(--primary-color);
+    padding: 20px;
+}
+
+#nav_bar a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
