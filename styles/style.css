@@ -1,8 +1,23 @@
-:root{
+:root {
     --primary-color: #F0B52D;
     --secondary-color: #D4D4D4;
     --dark-color: #000000;
-    --light-color: #fff;
+    --light-color: #ffffff;
+
+    --title-font-size: 60px;
+    --title-font-weight: bold;
+
+    --heading-1-font-size: 32px;
+    --heading-1-font-weight: bold;
+
+    --heading-2-font-size: 24px;
+    --heading-2-font-weight: bold;
+
+    --sub-title-font-size: 16px;
+    --sub-title-font-weight: normal;
+
+    --normal-font-size: 12px;
+    --normal-font-weight: normal;
 }
 
 body {

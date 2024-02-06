@@ -18,6 +18,8 @@
 
     --normal-font-size: 12px;
     --normal-font-weight: normal;
+
+    scroll-behavior: smooth;
 }
 
 #landing {
@@ -76,11 +78,23 @@
     border-radius: 16px;
 }
 
+#landing #landing_left div a:hover{
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+#landing #landing_left div a:hover i{
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 1s;
+}
+
 #landing #landing_right {
     width: 50%;
     background-image: url(../assets/186536032_235317855025173_8041973802807288901_n.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 

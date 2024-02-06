@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #F0B52D;
+    --secondary-color: #D4D4D4;
+    --dark-color: #000000;
+    --light-color: #ffffff;
+
+    --title-font-size: 60px;
+    --title-font-weight: bold;
+
+    --heading-1-font-size: 32px;
+    --heading-1-font-weight: bold;
+
+    --heading-2-font-size: 24px;
+    --heading-2-font-weight: bold;
+
+    --sub-title-font-size: 16px;
+    --sub-title-font-weight: normal;
+
+    --normal-font-size: 12px;
+    --normal-font-weight: normal;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#resume {
+    display: flex;
+}
+
+#resume #resume_left {
+    width: 20%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 0px 20px #6f6f6f;
+}
+
+#resume #resume_left #avatar {
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url(../assets/186536032_235317855025173_8041973802807288901_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#resume #resume_left #nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 64px 0;
+    background-color: var(--primary-color);
+    height: 100%;
+}
+
+#resume #resume_left div a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#resume #resume_right {
+    width: 80%;
+    height: 100%;
+    margin: 0 64px;
+}
+
+#resume #resume_right #title {
+    padding: 10px 54px;
+
+}
+
+#resume #resume_right #title h1 {
+    text-align: center;
+    font-size: 60px;
+    border: 1px var(--dark-color) dashed;
+    padding: 16px 10px;
+}
+
+#resume #resume_right #education {
+    margin-bottom: 64px;
+}
+
+#resume #resume_right #education h2 {}
+
+#resume #resume_right #education #education_card {
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: auto auto auto;
+}
+
+#resume #resume_right #education #education_card h4 .sub-heading-left {
+    grid-column: 1/ 1;
+    grid-row: 1/1;
+}
+
+#resume #resume_right #education #education_card h4 .sub-heading-right {
+    grid-column: 2/ 2;
+    grid-row: 1/1;
+}
+
+#resume #resume_right #education #education_card h3 {
+    grid-column: 1/ 2;
+    grid-row: 2/2;
+}
+
+#resume #resume_right #education #education_card div {
+    grid-column: 1/ 2;
+    grid-row: 3/3;
+}
+
+#resume #resume_right #projects {
+    margin-bottom: 64px;
+}
+
+#resume #resume_right #projects h2 {
+    width: 100%;
+}
+
+#resume #resume_right #projects .section-card {
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: auto auto auto;
+    margin-bottom: 32px;
+}
+
+#resume #resume_right #projects .section-card .sub-heading-left {
+    grid-column: 1/ 1;
+    grid-row: 1/1;
+}
+
+#resume #resume_right #projects .section-card .sub-heading-right {
+    grid-column: 2/ 2;
+    grid-row: 1/1;
+}
+
+#resume #resume_right #projects .section-card .heading {
+    grid-column: 1/ 2;
+    grid-row: 2/2;
+}
+
+#resume #resume_right #projects .section-card .description {
+    grid-column: 1/ 2;
+    grid-row: 3/3;
+}
