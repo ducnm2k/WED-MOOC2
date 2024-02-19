@@ -77,3 +77,55 @@ h4 {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+#portfolio #portfolio_right {
+    width: 80%;
+    height: 100%;
+    margin: 0 64px;
+}
+
+#portfolio #portfolio_right #title {
+    padding: 10px 54px;
+}
+
+#portfolio #portfolio_right #title h1 {
+    text-align: center;
+    font-size: 60px;
+    border: 1px var(--dark-color) dashed;
+    padding: 16px 10px;
+}
+
+#portfolio #portfolio_right #image_container {
+    margin-bottom: 64px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 0 54px;
+}
+
+#portfolio #portfolio_right #image_container div {
+    min-height: 240px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio #portfolio_right #image_container #img_1 {
+    background-image: url(../assets/2024-02-17\ 20-33-05.png);
+
+}
+
+#portfolio #portfolio_right #image_container #img_2 {
+    background-image: url(../assets/2024-02-17\ 20-34-46.png);
+}
+
+#portfolio #portfolio_right #image_container #img_3 {
+    background-image: url(../assets/2024-02-18\ 09-59-19.png);
+}
+
+#portfolio #portfolio_right #image_container #img_4 {
+    background-image: url(../assets/2024-02-18\ 09-59-49.png);
+}
